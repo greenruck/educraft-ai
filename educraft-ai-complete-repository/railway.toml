@@ -1,0 +1,9 @@
+[build]
+cmd = "npm install && npm run build"
+
+[deploy]
+startCommand = "npm start"
+
+[env]
+NODE_VERSION = "18.x"
+NPM_VERSION = "9.x"

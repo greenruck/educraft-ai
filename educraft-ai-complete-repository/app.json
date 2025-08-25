@@ -1,0 +1,43 @@
+{
+  "name": "EduCraft AI",
+  "description": "AI-powered instructional content generator for educators",
+  "repository": "https://github.com/yourusername/educraft-ai",
+  "logo": "https://educraft-ai.com/logo.png",
+  "keywords": ["education", "ai", "teaching", "lesson-plans"],
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Node.js environment",
+      "value": "production"
+    },
+    "FIREBASE_API_KEY": {
+      "description": "Firebase API Key",
+      "required": true
+    },
+    "FIREBASE_PROJECT_ID": {
+      "description": "Firebase Project ID",
+      "required": true
+    },
+    "OPENAI_API_KEY": {
+      "description": "OpenAI API Key for content generation",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [
+    "heroku-postgresql:mini"
+  ],
+  "scripts": {
+    "postdeploy": "npm run setup"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "educraft-ai",
+  "version": "1.0.0",
+  "description": "AI-powered instructional content generator for educators",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd functions && npm run serve\"",
+    "build": "cd frontend && npm run build",
+    "deploy": "./scripts/deploy.sh",
+    "setup": "./scripts/setup.sh",
+    "test": "npm run test:frontend && npm run test:functions",
+    "test:frontend": "cd frontend && npm test",
+    "test:functions": "cd functions && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/educraft-ai.git"
+  },
+  "keywords": [
+    "education",
+    "ai",
+    "lesson-plans",
+    "teaching",
+    "instructional-design",
+    "content-generation",
+    "firebase",
+    "react"
+  ],
+  "author": "EduCraft AI Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/educraft-ai/issues"
+  },
+  "homepage": "https://github.com/yourusername/educraft-ai#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
