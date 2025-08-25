@@ -1,6 +1,6 @@
 # 🎓 EduCraft AI - Intelligent Instructional Content Generator
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yourusername/educraft-ai)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/greenruck/educraft-ai)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/educraft-ai)
 [![Deploy to Railway](https://railway.app/button.svg)](https://railway.app/new/template/educraft-ai)
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yourusername/educraft-ai)
@@ -144,7 +144,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📧 **Email**: support@educraft.ai
 - 💬 **Discord**: [Join our community](https://discord.gg/educraft)
 - 📚 **Documentation**: [docs.educraft.ai](https://docs.educraft.ai)
-- 🐛 **Issues**: [GitHub Issues]([https://github.com/yourusername/educraft-ai/issues)](https://github.com/greenruck/educraft-ai)
+- 🐛 **Issues**: [GitHub Issues]([https://github.com/greenruck/educraft-ai/issues)](https://github.com/greenruck/educraft-ai)
 
 ## ⭐ **Star History**
 
